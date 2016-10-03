@@ -1,0 +1,5 @@
+[info]
+title=Linter for C++, using CppLint
+desc=Linter for CudaLint, adds support for C++ lexer, uses CppLint tool
+type=cudatext-plugin
+subdir=cuda_lint_cpplint

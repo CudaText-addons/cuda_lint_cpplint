@@ -18,7 +18,8 @@ class Cpplint(PythonLinter):
     syntax = ('C', 'C++')
     cmd = 'cpplint@python'
 
-    regex = r'^.+:(?P<line>\d+):\s+(?P<message>.+)'
+    regex = r'^.+(?P<line>\d+):\s+(?P<message>.+)'
+    
     tempfile_suffix = '.cpp'
     defaults = {
         '--filter=,': '',
